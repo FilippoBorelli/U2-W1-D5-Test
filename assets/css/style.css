@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Spectral:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+/* font-family: 'Spectral', serif; */
+}
+
+.navbar{
+    width: 100%;
+    height: 5em;
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+    position: relative;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+header img{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px; */
+    display: inline-block;
+    padding: 1.6em 0;
+    padding-left: 10em;
+}
+#comandi{
+    display: inline-block;
+    position: absolute;
+    right: 8em;
+    top: 27px;
+    word-spacing: 1em;
+}
+.navbar button{
+    background-color: #191919;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    width: 100px;
+}
+.header{
+    height: 29em;
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+}
+/* svg{
+    position: absolute;
+    width: 40%;
+    height: 100px;
+} */
+header h1{
+    padding-left: 1.4em;
+    padding-top: 0.9em;
+    padding-bottom: 0.3em;
+    font-size: 110px;
+    font-family: 'Spectral', serif;
+    letter-spacing: -8px;
+}
+.sottotitolo{
+    width: 30%;
+    margin-left: 165px;
+    margin-top: -10px;
+    font-size: 25px;
+    color:rgba(35, 24, 14, 0.838)
+}
+.second-button{
+    background-color: #191919;
+    border-radius: 30px;
+    height: 25px;
+    color: white;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+#mega-section{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titoletto{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.titoletto p{
+    display: inline-block;
+    position: relative;
+    top: -8px;
+}
+main section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    width: 28%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+section article span{
+    float: left;
+    height: 139px;
+    margin-right: 20px;
+    font-size: 35px;
+    opacity: 10%;
+    font-weight: bold;
+    margin-top: -10px;
+}
+section article img{
+    width: 20px;
+    border-radius: 5px;
+}
+.primi-due{
+    border-radius: 20px;
+}
+section article h2{
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: -17px;
+}
+ section article h3{
+    margin-top: 20px;
+    font-weight: bold;
+}
+section article h4{
+    margin-top: 20px;
+    opacity: 40%;
+}
+/* section article img:nth-of-type(4)
+section article img:nth-of-type(5)
+section article img:nth-of-type(6){
+    margin-left: 300px;
+}
+.ultime-tre{
+    margin-top: -30px;
+} */
+main{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.068);
+    padding-bottom: 50px;
+}
+footer{
+    margin-top: 60px;
+}
+.profilo{
+    width: 25px;
+    border-radius: 20px;
+}
+footer article h2{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+footer article h3{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer article h4{
+    margin-top: 20px;
+    opacity: 70%;
+}
+article{
+    width: 42%;
+    position: relative;
+}
+.img-center{
+    position: absolute;
+    right: -220px;
+    bottom: 10px;
+    width: 210px;
+}
+footer article button{
+    border: none;
+    border-radius: 20px;
+    width: 100;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F2F2F2;
+    opacity: 100%;
+}
+.premium-uno{
+    position: absolute;
+    bottom: 20px;
+    left: 205px;
+}
+.premium-due{
+    position: absolute;
+    bottom: 20px;
+    left: 210px;
+}
+.premium-tre{
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+}
+.premium-quattro{
+    position: absolute;
+    bottom: 20px;
+    left: 220px;
+}
+.premium-cinque{
+    position: absolute;
+    bottom: 20px;
+    left: 245px;
+}
+.bookmark{
+    margin-left: 440px;
+    margin-top: -100px;
+}
+aside{
+    position: sticky;
+    top: 110px;
+    float: right;
+    margin-top: -1220px;
+    width: 35%;
+}
+aside h3{
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+aside p{
+    border: 1px solid rgba(96, 96, 96, 0.32);
+    width: 100;
+    height: 100;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+aside div:nth-of-type(1){
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+aside div:nth-of-type(2){
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
